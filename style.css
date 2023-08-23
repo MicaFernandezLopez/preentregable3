@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: 0;
+    width: 100%; /* para establecer el ancho de mi nav bar*/
+    margin: auto;
+    position: sticky; /*para que quede "pegado" en el lugar*/
+    background-color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    display: flex;
+    padding: 2%; 
+    color: #ffffff;
+    flex-direction: row; 
+    justify-content: space-between; /*para dejar espacio entre los elementos del nav bar*/
+    align-items: baseline;/*para alinear h1 con li*/
+ }
+
+
+
+.background-table{
+    background-color: #d90404;
+}
+
+body{
+    
+    background: #d90404;
+    text-align: justify;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
+.table {
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+   
+  }
+  
+  .table th,
+  .table td {
+    background: #d90404;
+    color: #ffffff;
+    border: none; /* Elimina los bordes de las celdas */
+  }
+  
+  .table thead tr {
+    border-bottom: none; /* Elimina el borde inferior de las filas del encabezado */
+  }
+  
+  .table tbody tr:last-child {
+    
+    border-bottom: none; /* Elimina el borde inferior de la última fila del cuerpo */
+  }
+td {
+    font-weight: bold;
+  }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    background-color: #000000;
+    padding: 2%;
+}
+  footer nav ul {
+      list-style-type: none; /* Quita los puntos de la lista */
+      padding: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+    }
+    footer nav ul li {
+      display: inline-block; 
+      justify-content: center;
+     padding: 2%;
+
+    }
